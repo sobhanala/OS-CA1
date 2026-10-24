@@ -1,0 +1,50 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Local configuration and generated artifacts
+.env*
+**/.env*
+!.env.example
+!**/.env.example
+**/node_modules/
+**/build/
+**/target/
+**/obj/
+**/bin/
+**/__pycache__/
+.venv/
+.idea/
+.vs/
+*.log
+*.db
+*.sqlite3
